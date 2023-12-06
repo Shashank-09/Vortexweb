@@ -365,7 +365,7 @@ h6,
     height: 15px;
     background: #DDDDDD;
     border-radius: 2px;
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -379,7 +379,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item .testimonial-item {
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -490,3 +490,73 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+
+
+
+
+
+
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+   
+  }
+  
+  .table th,
+  .table td {
+    padding: 1.75rem;
+    font-weight: 300;
+    vertical-align: top;
+    border-top: 1px solid #ffffff;
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #ffffff;
+  }
+  
+  .table .table {
+    background-color: #fff;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .fa-check,
+  .fa-times {
+    /* font-size: 1.2em; */
+  }
+  
+  .text-success {
+    color: green;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  .fa-check::before {
+    content: "\f00c";
+  }
+  
+  .fa-times::before {
+    content: "\f00d";
+  }
+  
