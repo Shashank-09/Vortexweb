@@ -713,7 +713,7 @@ h6,
 
 .newsletter
  {
-    background:
+    /* background:
         url(https://cdn-ru.bitrix24.ru/b5391009/landing/f39/f393fef173d818d6fb9dbdc6db775624/img_photo_back_2x.jpg),
         url(https://cdn-ru.bitrix24.ru/b5391009/landing/f39/f393fef173d818d6fb9dbdc6db775624/img_photo_back_2x.jpg);
     background-position:
@@ -721,7 +721,7 @@ h6,
         right bottom;
         background-size: cover;
         background-repeat: no-repeat;
-        margin-bottom: 30px !important;
+        margin-bottom: 30px !important; */
 }
 .newsletter{
     width: 94%;
