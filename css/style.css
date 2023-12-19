@@ -135,7 +135,9 @@ h6,
     outline: none;
     transition: .5s;
 }
-
+.navbar{
+  background-color: #000;
+}
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Nunito', sans-serif;
